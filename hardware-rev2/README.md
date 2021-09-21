@@ -13,7 +13,7 @@ To make one you will need:
 * 7x 3x10mm wood screws
 * some kind of rubber feet or non-slip padding for the bottom
 * a soldering iron
-* an ISP programmer or an Arduino to flash the board with [firmware](../firmware)
+* an ISP programmer or an Arduino to flash the board with [firmware](../firmware-atmega32u4)
 
 I printed the case at 0.20mm layer height. The top part should be printed upside-down, the bottom part should be printed as-is. They don't require supports.
 
@@ -25,7 +25,7 @@ The PCB you get from JLCPCB will look like this:
 
 The switches can be soldered in directly to the PCB or you can use hotswap sockets. If you want to use hotswap sockets, you will have to print the appropriate bottom part of the case (it's 1mm thicker).
 
-You don't have to use the [code](../firmware) included here, you can use any other ATmega32U4-compatible firmware. The included firmware works with the PS3 and PC.
+You don't have to use the [code](../firmware-atmega32u4) included here, you can use any other ATmega32U4-compatible firmware. The included firmware works with the PS3 and PC.
 
 To flash the firmware, we first flash the board with an Arduino Pro Micro bootloader, effectively making it look like an Arduino from the computer's point of view. To do that you're going to need an ISP programmer, either a dedicated one or you can [use an Arduino as an ISP programmer](https://www.arduino.cc/en/Tutorial/BuiltInExamples/ArduinoISP). Install the [SparkFun Arduino add-on](https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide#windows_boardaddon), connect the VCC, MISO, MOSI, SCK, RESET and GND wires, select Arduino Pro Micro 16MHz/5V as the board, select the right programmer depending on the option you went for, and then select "Burn bootloader". If this succeeds, your Flatbox is now an Arduino Pro Micro and you can flash the actual firmware like you would any other Arduino sketch on an actual Arduino board.
 

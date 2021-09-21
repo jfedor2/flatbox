@@ -23,7 +23,7 @@ The switches can be soldered in directly to the PCB or you can use hotswap socke
 
 The Arduino has to be soldered directly on top of the PCB, otherwise it won't fit in the case (the plastic base of the pin header can't go between the Arduino and the PCB).
 
-You don't have to use the [code](../firmware) included here, you can use any other ATmega32U4-compatible firmware. The included firmware works with the PS3 and PC.
+You don't have to use the [code](../firmware-atmega32u4) included here, you can use any other ATmega32U4-compatible firmware. The included firmware works with the PS3 and PC.
 
 ![Flatbox rev1.1 unpopulated PCB](images/Flatbox-rev1.1-unpopulated-pcb.jpg)
 
