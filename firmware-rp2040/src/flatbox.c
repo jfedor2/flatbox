@@ -40,6 +40,13 @@ int stickMode = 0;              // 0 = dpad, 1 = left stick
 #define USB_VID 0xCAFE
 #define USB_PID 0xBABA
 
+// Uncomment the appropriate line to match your board revision
+
+#define REV4
+//#define REV5
+
+#ifdef REV4
+
 #define PIN_UP        16
 #define PIN_DOWN      10
 #define PIN_LEFT      9
@@ -57,6 +64,30 @@ int stickMode = 0;              // 0 = dpad, 1 = left stick
 #define PIN_L3        6
 #define PIN_R3        4
 #define PIN_PS        2
+
+#endif
+
+#ifdef REV5
+
+#define PIN_UP        10
+#define PIN_DOWN      12
+#define PIN_LEFT      13
+#define PIN_RIGHT     11
+#define PIN_CROSS     9
+#define PIN_CIRCLE    7
+#define PIN_TRIANGLE  6
+#define PIN_SQUARE    8
+#define PIN_L1        2
+#define PIN_L2        3
+#define PIN_R1        4
+#define PIN_R2        5
+#define PIN_SELECT    27
+#define PIN_START     29
+#define PIN_L3        14
+#define PIN_R3        26
+#define PIN_PS        28
+
+#endif
 
 uint32_t pin_mask = 1 << PIN_UP | 1 << PIN_DOWN | 1 << PIN_LEFT | 1 << PIN_RIGHT | 1 << PIN_CROSS | 1 << PIN_CIRCLE | 1 << PIN_TRIANGLE | 1 << PIN_SQUARE | 1 << PIN_L1 | 1 << PIN_L2 | 1 << PIN_R1 | 1 << PIN_R2 | 1 << PIN_SELECT | 1 << PIN_START | 1 << PIN_L3 | 1 << PIN_R3 | 1 << PIN_PS;
 
@@ -168,7 +199,12 @@ uint8_t const desc_configuration[] = {
 char const *string_desc_arr[] = {
     (const char[]) {0x09, 0x04},        // 0: is supported language is English (0x0409)
     "Flatbox",                          // 1: Manufacturer
+#ifdef REV4
     "Flatbox rev4",                     // 2: Product
+#endif
+#ifdef REV5
+    "Flatbox rev5",                     // 2: Product
+#endif
 };
 
 // HID report
