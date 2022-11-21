@@ -1,5 +1,8 @@
 cmake_minimum_required(VERSION 3.13)
 
+set(PICO_BOARD_HEADER_DIRS "${CMAKE_CURRENT_LIST_DIR}/src/boards")
+set(PICO_BOARD flatbox)
+
 include(pico_sdk_import.cmake)
 
 project(flatbox)
