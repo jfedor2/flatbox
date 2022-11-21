@@ -40,12 +40,7 @@ int stickMode = 0;              // 0 = dpad, 1 = left stick
 #define USB_VID 0xCAFE
 #define USB_PID 0xBABA
 
-// Uncomment the appropriate line to match your board revision
-
-#define REV4
-//#define REV5
-
-#ifdef REV4
+#ifdef FLATBOX_REV4
 
 #define PIN_UP        16
 #define PIN_DOWN      10
@@ -67,7 +62,7 @@ int stickMode = 0;              // 0 = dpad, 1 = left stick
 
 #endif
 
-#ifdef REV5
+#ifdef FLATBOX_REV5
 
 #define PIN_UP        10
 #define PIN_DOWN      12
@@ -199,10 +194,10 @@ uint8_t const desc_configuration[] = {
 char const *string_desc_arr[] = {
     (const char[]) {0x09, 0x04},        // 0: is supported language is English (0x0409)
     "Flatbox",                          // 1: Manufacturer
-#ifdef REV4
+#ifdef FLATBOX_REV4
     "Flatbox rev4",                     // 2: Product
 #endif
-#ifdef REV5
+#ifdef FLATBOX_REV5
     "Flatbox rev5",                     // 2: Product
 #endif
 };
