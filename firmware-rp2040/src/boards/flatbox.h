@@ -6,11 +6,10 @@
 #define PICO_XOSC_STARTUP_DELAY_MULTIPLIER 64
 #endif
 
-// Use slower generic flash access
-#define PICO_BOOT_STAGE2_CHOOSE_GENERIC_03H 1
+#define PICO_BOOT_STAGE2_CHOOSE_W25Q080 1
 
 #ifndef PICO_FLASH_SPI_CLKDIV
-#define PICO_FLASH_SPI_CLKDIV 4
+#define PICO_FLASH_SPI_CLKDIV 2
 #endif
 
 // rev4 actually has 16MB of flash, but whatever
