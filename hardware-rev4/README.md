@@ -6,7 +6,7 @@ To make one you will need:
 
 * [3D printed case parts](3d-printed-case) - top and bottom
 * [the PCB](pcb)
-* 12x Kailh low profile (choc v1) switches of your choice
+* 12x Kailh low profile (choc v1 or v2) switches of your choice
 * (optionally) 12x Kailh low profile hotswap sockets
 * [3D printed buttoncaps](../3d-printed-buttoncaps)
 * 6x 6x6x5mm tact switches
@@ -23,6 +23,9 @@ The PCB you get from JLCPCB will look like this:
 ![Flatbox rev4 PCB with SMD parts assembled](images/Flatbox-rev4-pcb-with-smd-parts.jpg)
 
 The switches can be soldered in directly to the PCB or you can use hotswap sockets. If you want to use hotswap sockets, you will have to print the appropriate bottom part of the case (it's 1mm thicker).
+
+If you want to use Choc V2 switches, you will have to remove the new unconnected metal stabilizer pin by either flush cutting or disassembling the switch.
+![Remove stabilizer](images/choc-v2-remove-pin.jpg) 
 
 You don't have to use the [code](../firmware-rp2040) included here, you can use any other RP2040-compatible firmware. The included firmware works with the PS3 and PC.
 
