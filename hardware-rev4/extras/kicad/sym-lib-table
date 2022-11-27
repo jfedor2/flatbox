@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Type-C)(type Legacy)(uri ${KIPRJMOD}/Type-C.pretty/Type-C.lib)(options "")(descr ""))
+  (lib (name RP2040)(type Legacy)(uri ${KIPRJMOD}/RP2040.pretty/MCU_RaspberryPi_RP2040.lib)(options "")(descr ""))
+)
