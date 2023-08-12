@@ -32,11 +32,11 @@ You don't have to use the [code](../firmware-rp2040) included here, you can use 
 
 To flash the firmware, connect the board to a computer with a USB cable, then press the RESET button while holding the BOOT button on the RP2040-Zero. A drive named "RPI-RP2" should appear. Copy the [flatbox-rev5.uf2](firmware/flatbox-rev5.uf2) file to that drive. That's it.
 
-![Flatbox rev5 unpopulated PCB](images/Flatbox-rev5-unpopulated-pcb.jpg)
+![Flatbox rev5B KiCAD PCB](images/Flatbox-rev5b-screenshot-pcb.jpg)
 
 ![RP2040-Zero soldered on top of the PCB](images/Flatbox-rev5-rp2040-zero-soldered.jpg)
 
-![Flatbox rev5 exploded view of the 3D printed case](images/Flatbox-rev5-exploded.png)
+![Flatbox rev5B exploded view of the 3D printed case (option 2 selected)](images/Flatbox-rev5b-exploded.png)
 
 PCB design licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
