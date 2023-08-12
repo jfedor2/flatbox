@@ -36,7 +36,7 @@ To flash the firmware, connect the board to a computer with a USB cable, then pr
 
 ![RP2040-Zero soldered on top of the PCB](images/Flatbox-rev5-rp2040-zero-soldered.jpg)
 
-![Flatbox rev5B exploded view of the 3D printed case (option 2 selected)](images/Flatbox-rev5b-exploded.png)
+![Flatbox rev5B exploded view of the 3D printed case (option 2 selected)](images/Flatbox-rev5b-2-exploded.png)
 
 PCB design licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
