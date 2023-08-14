@@ -24,9 +24,11 @@ The PCB you get from JLCPCB will look like this:
 
 The switches can be soldered in directly to the PCB or you can use hotswap sockets. If you want to use hotswap sockets, you will have to print the appropriate bottom part of the case (it's 1mm thicker).
 
-You don't have to use the [code](../firmware-rp2040) included here, you can use any other RP2040-compatible firmware. The included firmware works with the PS3 and PC.
+For the firmware you probably want to use [GP2040-CE](https://gp2040-ce.info/). Go to the [GP2040-CE downloads page](https://gp2040-ce.info/#/download) and get the UF2 file for Flatbox rev4.
 
-To flash the firmware, connect the PCB to a computer with a USB cable, then press the RESET button while holding the BOOT button on the PCB. A drive named "RPI-RP2" should appear. Copy the [flatbox-rev4.uf2](firmware/flatbox-rev4.uf2) file to that drive. That's it.
+To flash the firmware, connect the PCB to a computer with a USB cable, then press the RESET button while holding the BOOT button on the PCB. A drive named "RPI-RP2" should appear. Copy the UF2 file you downloaded to that drive. That's it.
+
+(Of course you can also use any other RP2040-compatible firmware if you want.)
 
 ![Flatbox rev4 exploded view of the 3D printed case](images/Flatbox-rev4-exploded.png)
 
