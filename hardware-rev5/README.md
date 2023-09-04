@@ -4,22 +4,24 @@ This is rev5 of the Flatbox. In this version an [RP2040-Zero](https://www.wavesh
 
 To make one you will need:
 
-* [3D printed case parts](3d-printed-case) - top and bottom
+* [3D printed](3d-printed-case) or [CNC machined](cnc-machined-case) case parts - top and bottom
 * [the Flatbox PCB](pcb)
 * [RP2040-Zero](https://www.waveshare.com/rp2040-zero.htm)
 * 12x Kailh low profile (choc v1) switches of your choice
 * (optionally) 12x Kailh low profile hotswap sockets
 * [3D printed buttoncaps](../3d-printed-buttoncaps)
-* 6x 6x6x5mm tact switches
+* 6x tact switches: 6x6x5mm for the 3D printed case and 6x6x7mm or 6x6x8mm for the CNC machined case
 * 7x M3x6 flat head screws
 * some kind of rubber feet or non-slip padding for the bottom
 * a soldering iron
 
 I printed the case at 0.20mm layer height. The top part should be printed upside-down, the bottom part should be printed as-is. They don't require supports.
 
+The CNC machined case can be ordered at [JLCPCB](https://jlcpcb.com/). I used 6061 aluminum. There are various surface finish options like bead blasting and anodizing that you can select. Be sure to select the "threads" option for the top part and upload the PDF file.
+
 The PCB can be ordered from a number of online services using the included [Gerber files](pcb), I used [JLCPCB](https://jlcpcb.com/) (leave all the settings at default, you can choose the PCB color). PCB thickness should be 1.6mm.
 
-The switches can be soldered in directly to the PCB or you can use hotswap sockets. If you want to use hotswap sockets, you will have to print the appropriate bottom part of the case (it's 1mm thicker).
+The switches can be soldered in directly to the PCB or you can use hotswap sockets. If you want to use hotswap sockets, you will have to print the appropriate bottom part of the case (it's 1mm thicker). The CNC machined case is also hotswap compatible.
 
 For the firmware you probably want to use [GP2040-CE](https://gp2040-ce.info/). Go to the [GP2040-CE downloads page](https://gp2040-ce.info/#/download) and get the UF2 file for Flatbox rev5. Do not get the file for the Waveshare RP2040-Zero, even though your stick uses it (it has a different pinout).
 
