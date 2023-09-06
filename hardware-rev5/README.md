@@ -12,6 +12,7 @@ To make one you will need:
 * [3D printed buttoncaps](../3d-printed-buttoncaps)
 * 6x tact switches: 6x6x5mm for the 3D printed case and 6x6x7mm or 6x6x8mm for the CNC machined case
 * 7x M3x6 flat head screws
+* 7x M3 threaded insert nuts (these will be a heat inserts for FDM printed cases)
 * some kind of rubber feet or non-slip padding for the bottom
 * a soldering iron
 
