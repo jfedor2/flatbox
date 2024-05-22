@@ -1,10 +1,10 @@
 # Flatbox rev3
 
-This is rev3 of the Flatbox. In this version the PCB only includes a USB port and you solder a [Brook PS3/PS4 fighting board PCB](https://www.brookaccessory.com/detail/58690501/) onto it (the small 40x40mm one). That way you get PS4 compatibility.
+This is rev3 of the Flatbox. In this version the PCB only includes a USB port and you solder a [Brook PS3/PS4 fighting board](https://www.brookaccessory.com/detail/58690501/) or a [Brook P5 mini Fighting Board](https://www.brookaccessory.com/detail/92299183/) onto it (the small 40x40mm ones). That way you get PlayStation compatibility.
 
 To make one you will need:
 
-* [Brook PS3/PS4 fighting board PCB](https://www.brookaccessory.com/detail/58690501/)
+* [Brook PS3/PS4 fighting board PCB](https://www.brookaccessory.com/detail/58690501/) or [Brook P5 mini Fighting Board](https://www.brookaccessory.com/detail/92299183/)
 * [3D printed case parts](3d-printed-case) - top and bottom
 * [the Flatbox PCB](pcb)
 * 12x Kailh low profile (choc v1) switches of your choice
@@ -27,7 +27,7 @@ The switches can be soldered in directly to the PCB or you can use hotswap socke
 
 The Brook board has to be soldered directly on top of the PCB, otherwise it won't fit in the case (the plastic base of the pin header can't go between the Brook board and the PCB).
 
-Since this version uses a Brook board, it doesn't use my firmware or any open source firmware, go to [Brook's website](https://www.brookaccessory.com/download/PS3/) for firmware updates.
+Since this version uses a Brook board, it doesn't use my firmware or any open source firmware, go to [Brook's website](https://www.brookaccessory.com/download/) for firmware updates.
 
 ![Flatbox rev3 Brook board soldered onto the PCB](images/Flatbox-rev3-brook-board-soldered.jpg)
 
