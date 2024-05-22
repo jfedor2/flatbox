@@ -1,0 +1,7 @@
+Comment,Designator,Footprint,LCSC
+"100n","C1,C2","Capacitor_SMD:C_0402_1005Metric","C1525"
+"10k","R1","Resistor_SMD:R_0402_1005Metric","C25744"
+"5.1k","R6,R7","Resistor_SMD:R_0402_1005Metric","C25905"
+"SW_Push","SW5","SW:C318884","C318884"
+"~","U1","CH552:TSSOP-20","C111367"
+"HRO-TYPE-C-31-M-12","USB1","Type-C:HRO-TYPE-C-31-M-12-Assembly","C165948"

@@ -4,16 +4,15 @@ This repository contains 3D-printable models, PCB design files and code needed t
 
 ![Assembled Flatbox](hardware-rev2/images/Flatbox-rev2b-finished-product.jpg)
 
-There are five major versions of the Flatbox. They all use Kailh low profile (choc v1) mechanical keyboard switches. The table below lists their main features. See the README for each version for details on how to make them.
+There are six major versions of the Flatbox. They all use Kailh low profile (choc v1) mechanical keyboard switches. The table below lists their main features. See the README for each version for details on how to make them.
 
-version | [rev1.1](hardware-rev1.1) | [rev2](hardware-rev2) | [rev3](hardware-rev3) | [rev4](hardware-rev4) | [rev5](hardware-rev5)
-------- | ------------------------- | --------------------- | --------------------- | --------------------- | ---------------------
-case dimensions | 218x128x10mm | 218x130x10mm | 218x130x10mm | 218x130x10mm | 218x126x10mm
-compatibility (using suggested firmware) | PC, PS3 | PC, PS3 | PC, PS3, PS4 or PC, Switch, PS3, PS4, PS5\* | PC, PS3, PS4\*, Switch | PC, PS3, PS4\*, Switch
-add-on board | Arduino Pro Micro | - | [Brook PS3/PS4](https://www.brookaccessory.com/detail/58690501/) or [P5 mini](https://www.brookaccessory.com/detail/92299183/) | - | [RP2040-Zero](https://www.waveshare.com/rp2040-zero.htm)
-onboard chip | - | ATmega32U4 | - | RP2040 | -
-port | micro USB | USB-C | USB-C | USB-C | USB-C
-SMT assembly required | no | yes | yes | yes | no
-firmware | [ATmega32U4](firmware-atmega32u4) | [ATmega32U4](firmware-atmega32u4) | [Brook](https://www.brookaccessory.com/download/) | [GP2040-CE](https://gp2040-ce.info/) | [GP2040-CE](https://gp2040-ce.info/)
+version | case dimensions (mm) | compatibility | add-on board | onboard chip | SMT assembly required | firmware
+------- | --------------- | ------------- | ------------ | ------------ | --------------------- | --------
+[rev1.1](hardware-rev1.1) | 218x128x10 | PC, PS3 | Arduino Pro Micro | - | no | [ATmega32U4](firmware-atmega32u4)
+[rev2](hardware-rev2) | 218x130x10 | PC, PS3 | - | ATmega32U4 | yes | [ATmega32U4](firmware-atmega32u4)
+[rev3](hardware-rev3) | 218x130x10 | PC, PS3, PS4 or PC, Switch, PS3, PS4, PS5\* | [Brook PS3/PS4](https://www.brookaccessory.com/detail/58690501/) or [P5 mini](https://www.brookaccessory.com/detail/92299183/) | - | yes | [Brook](https://www.brookaccessory.com/download/)
+[rev4](hardware-rev4) | 218x130x10 | PC, PS3, PS4\*, Switch | - | RP2040 | yes | [GP2040-CE](https://gp2040-ce.info/)
+[rev5](hardware-rev5) | 218x126x10 | PC, PS3, PS4\*, Switch | [RP2040-Zero](https://www.waveshare.com/rp2040-zero.htm) | - | no | [GP2040-CE](https://gp2040-ce.info/)
+[rev6](hardware-rev6) | 218x126x10 | PC, Switch | - | CH552T | yes | [CH552](firmware-ch552)
 
 \* - with caveats
