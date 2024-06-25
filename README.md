@@ -4,7 +4,7 @@ This repository contains 3D-printable models, PCB design files and code needed t
 
 ![Assembled Flatbox](hardware-rev2/images/Flatbox-rev2b-finished-product.jpg)
 
-There are six major versions of the Flatbox. They all use Kailh low profile (choc v1) mechanical keyboard switches. The table below lists their main features. See the README for each version for details on how to make them.
+There are seven major versions of the Flatbox. They all use Kailh low profile (choc v1) mechanical keyboard switches. The table below lists their main features. See the README for each version for details on how to make them.
 
 version | case dimensions (mm) | compatibility | add-on board | onboard chip | SMT assembly required | firmware
 ------- | --------------- | ------------- | ------------ | ------------ | --------------------- | --------
@@ -14,5 +14,6 @@ version | case dimensions (mm) | compatibility | add-on board | onboard chip | S
 [rev4](hardware-rev4) | 218x130x10 | PC, PS3, PS4\*, Switch | - | RP2040 | yes | [GP2040-CE](https://gp2040-ce.info/)
 [rev5](hardware-rev5) | 218x126x10 | PC, PS3, PS4\*, Switch | [RP2040-Zero](https://www.waveshare.com/rp2040-zero.htm) | - | no | [GP2040-CE](https://gp2040-ce.info/)
 [rev6](hardware-rev6) | 218x126x10 | PC, Switch | - | CH552T | yes | [CH552](firmware-ch552)
+[rev7](hardware-rev7) | 218x130x11 | PC | [Xiao nRF52840](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html) | - | no | [slimbox-bt](https://github.com/jfedor2/slimbox-bt)
 
 \* - with caveats
