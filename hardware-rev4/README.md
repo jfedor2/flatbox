@@ -1,5 +1,7 @@
 # Flatbox rev4
 
+_**Please note**: There's a newer version of this Flatbox variant: [rev4.1](../hardware-rev4.1). If you're starting fresh, it's probably better to make that one._
+
 This is rev4 of the Flatbox. In this version the PCB includes a microcontroller and USB port. Everything is built in, you only have to add the switches (and flash the firmware).
 
 To make one you will need:
