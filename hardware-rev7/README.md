@@ -34,9 +34,9 @@ You will need to cut off the plug on the battery and solder the wires directly t
 
 ![Flatbox rev7 battery wiring](images/Flatbox-rev7-xiao-bottom.jpg)
 
-To flash the firmware, download the [flatbox-rev7-nrf52840.uf2](https://github.com/jfedor2/slimbox-bt/releases/latest/download/flatbox-rev7-nrf52840.uf2) file from the [slimbox-bt](https://github.com/jfedor2/slimbox-bt) repository. Then connect the board to your computer using a USB cable and press the RESET button on the Xiao board twice quickly (the RESET button is really small, next to the USB port). A USB drive should appear on your computer. Copy the `flatbox-rev7-nrf52840.uf2` file to that drive.
+To flash the firmware, download the [pgf-flatbox\_rev7-nrf52840.uf2](https://github.com/jfedor2/portable-gamepad-firmware/releases/latest/download/pgf-flatbox_rev7-nrf52840.uf2) file from the [Portable Gamepad Firmware](https://github.com/jfedor2/portable-gamepad-firmware) repository. Then connect the board to your computer using a USB cable and press the RESET button on the Xiao board twice quickly (the RESET button is really small, next to the USB port). A USB drive should appear on your computer. Copy the `pgf-flatbox_rev7-nrf52840.uf2` file to that drive.
 
-See the [slimbox-bt](https://github.com/jfedor2/slimbox-bt) repository for general usage instructions.
+See the [Portable Gamepad Firmware](https://github.com/jfedor2/portable-gamepad-firmware) repository for general usage instructions.
 
 ![Flatbox rev7 inside the case](images/Flatbox-rev7-inside.jpg)
 
