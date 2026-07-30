@@ -36,7 +36,7 @@ The switches can be soldered in directly to the PCB or you can use hotswap socke
 There are various ways that you can put firmware on the board and make it into a functional controller. Here's what I did. The relevant files are in the [binaries](binaries) folder.
 
 1. Using an ST-Link V2 clone debug interface, put a UF2 bootloader on the board. Wire SWDIO, SWDCLK, RESET and GND lines between the ST-Link and the board and connect the board to a PC over USB for power. Then flash the bootloader with this command:<br>
-`openocd -f openocd_stlink_samd21.cfg -c "init; program bootloader-flatbox_rev9-1d99238.bin verify reset; shutdown"`
+`openocd -f openocd_stlink_samd21.cfg -c "init; program bootloader-flatbox_rev9-d514d82.bin verify reset; shutdown"`
 2. Disconnect the ST-Link from the board.
 3. Now when you connect the board to a PC, a USB drive named "FLATBOXREV9" should appear. Copy the [pgf-flatbox_rev9.uf2](https://github.com/jfedor2/portable-gamepad-firmware/releases/latest/download/pgf-flatbox_rev9.uf2) file to that drive. The board should now act as a game controller.
 
