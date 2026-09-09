@@ -1,5 +1,7 @@
 # Flatbox rev7.1
 
+_**Please note**: There's a newer version of this Flatbox variant: [rev7.2](../hardware-rev7.2). It uses a Xiao Plus board and doesn't need the I/O expander._
+
 This is rev7.1 of the Flatbox. In this version a [Seeed Studio XIAO nRF52840](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html) board is soldered onto the main PCB.
 
 There are two variants of the case, version A uses flaps for the option buttons, version B has holes so that you can use buttoncaps on the tact switches:

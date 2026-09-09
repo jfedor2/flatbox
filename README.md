@@ -14,7 +14,7 @@ version | case dimensions (mm) | compatibility | add-on board | onboard chip | S
 [rev4.1](hardware-rev4.1) | 218x130x11 | PC, PS3, PS4\*, PS5\*, Switch | - | RP2040 | yes | [GP2040-CE](https://gp2040-ce.info/)
 [rev5](hardware-rev5) | 218x126x10 | PC, PS3, PS4\*, Switch | [RP2040-Zero](https://www.waveshare.com/rp2040-zero.htm) | - | no | [GP2040-CE](https://gp2040-ce.info/)
 [rev6](hardware-rev6) | 218x126x10 | PC, Switch | - | CH552T | yes | [CH552](firmware-ch552)
-[rev7](hardware-rev7) | 218x130x11 | PC, Switch | [Xiao nRF52840](https://www.seeedstudio.com/Seeed-XIAO-BLE-nRF52840-p-5201.html) | - | no | [PGF](https://github.com/jfedor2/portable-gamepad-firmware)
+[rev7.2](hardware-rev7.2) | 218x130x11 | PC, Switch | [Xiao nRF52840 Plus](https://www.seeedstudio.com/Seeed-Studio-XIAO-nRF52840-Plus-p-6359.html) | - | no | [PGF](https://github.com/jfedor2/portable-gamepad-firmware)
 [rev8](hardware-rev8) | 218x130x11 | PC, PS3, PS4\*, PS5\*, Switch | - | RP2350 | yes | [GP2040-CE](https://gp2040-ce.info/)
 [rev9](hardware-rev9) | 218x130x11 | PC, Switch | - | SAMD21 | yes | [PGF](https://github.com/jfedor2/portable-gamepad-firmware)
 [rev10](hardware-rev10) | 218x130x11 | PC, Switch | - | STM32G0B1 | yes | [PGF](https://github.com/jfedor2/portable-gamepad-firmware)
